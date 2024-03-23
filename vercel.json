@@ -2,6 +2,16 @@
   "routes": [
     {
       "src": "/(.*)",
+      "methods": ["OPTIONS"],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+        "Access-Control-Allow-Headers": "*"
+      },
+      "status": 200
+    },
+    {
+      "src": "/(.*)",
       "dest": "https://chat-22387.bubbleapps.io/$1"
     }
   ]
