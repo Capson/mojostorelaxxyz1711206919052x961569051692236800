@@ -1,23 +1,8 @@
 {
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        },
-        {
-          "key": "Access-Control-Allow-Credentials",
-          "value": "true"
-        }
-      ]
-    }
-  ],
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https://chat-22387.bubbleapps.io/$1"
+      "destination": "chat-22387.bubbleapps.io/$1"
     }
   ]
 }
