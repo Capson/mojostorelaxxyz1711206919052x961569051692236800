@@ -5,7 +5,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https://chat-22387.bubbleapps.io/$1"
+      "destination": "https://chat-22387.bubbleapps.io/register/$1"
     }
   ]
 }
