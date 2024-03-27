@@ -1,6 +1,6 @@
 {
   "redirects": [
-    {       "source": "/*",       "destination": "/*",       "permanent": true     }
+    {       "source": "/",       "destination": "/",       "permanent": true     }
   ],
   "rewrites": [
     {
