@@ -8,7 +8,7 @@
       }
     },
     {
-      "src": "/api/(.*)",
+      "src": "/(.*)",
       "dest": "https://chat-22387.bubbleapps.io/api/$1",
       "headers": {
         "Access-Control-Allow-Origin": "*"
