@@ -22,7 +22,7 @@
       ]
     }
   ],
-  "rewrites": [
+  "routes": [
     {
       "source": "/(.*)",
       "destination": "https://chat-22387.bubbleapps.io/$1"
